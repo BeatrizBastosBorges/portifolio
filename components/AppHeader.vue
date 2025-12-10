@@ -3,18 +3,19 @@
         <div class="container mx-auto px-4 md:px-12 lg:px-20 py-4 flex justify-between items-center">
   
             <div class="text-lg font-bold flex items-center">
-                <span class="text-blue-400 mr-2">#</span>Beatriz
+                <img :src="logoUrl" alt="Logo" class="h-10 w-auto">
+                Beatriz
             </div>
   
             <nav class="hidden md:flex space-x-6 text-sm">
                 <NuxtLink v-for="link in navLinks" :key="link.to" :to="link.to" 
                             class="text-gray-400 hover:text-white transition-colors flex items-center">
-                    <span class="text-green-500 mr-1">#</span>{{ link.label }}
+                    <span class="text-[#3DD9BC] mr-1">#</span>{{ link.label }}
                 </NuxtLink>
         
-                <div class="flex items-center ml-4 border-l border-gray-700 pl-4">
+                <!-- <div class="flex items-center ml-4 border-l border-gray-700 pl-4">
                     <span class="text-sm text-gray-400">PT-BR ▾</span>
-                </div>
+                </div> -->
             </nav>
         </div>
     </header>
@@ -74,13 +75,15 @@
             </a>
         </div>
     </aside> -->
-  </template>
+</template>
   
-  <script setup>
-  const navLinks = [
+<script setup>
+import logoUrl from '../assets/image/logo.svg'
+
+const navLinks = [
     { label: 'início', to: '#inicio' },
     { label: 'projetos', to: '#projetos' },
     { label: 'sobre-mim', to: '#sobre-mim' },
     { label: 'contatos', to: '#contatos' },
-  ]
-  </script>
+]
+</script>
