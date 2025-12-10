@@ -1,7 +1,27 @@
 <template>
     <div>
         <section id="inicio" class="py-24 px-4 md:px-12 lg:px-20 container mx-auto">
-            <!-- <HeroSection />  -->
+            <div class="grid lg:grid-cols-2 gap-12 items-center">       
+                    <div>
+                        <p class="text-2xl md:text-4xl font-semibold mb-8">
+                            Sou uma <span class="text-[#858BF2]">desenvolvedora web</span>
+                        </p>
+                        
+                        <p class="text-gray-400 text-lg mb-8 max-w-lg">
+                            Transformo ideias em sistemas de alta perfomance.
+                        </p>
+
+                        <a href="#" class="inline-block px-6 py-3 border border-[#3DD9BC] hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors font-medium">
+                            Saiba mais!
+                        </a>
+                    </div>
+
+                    <div class="hidden lg:flex justify-end relative">
+                        <div class="w-full max-w-md h-80 flex items-center justify-center text-gray-400">
+                            <img :src="meUrl" alt="Logo">
+                        </div>
+                    </div>
+                </div>
         </section>
   
         <section class="py-16 px-4 md:px-12 lg:px-20 container mx-auto">
@@ -31,6 +51,8 @@
 </template>
   
 <script setup>
+import meUrl from '../assets/image/me-sitting.svg'
+
 useHead({
     title: 'Beatriz | Desenvolvedora Web',
     meta: [
