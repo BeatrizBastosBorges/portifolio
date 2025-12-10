@@ -24,7 +24,7 @@
                 </div>
         </section>
   
-        <section class="py-24 px-4 md:px-12 lg:px-20 mb-20 md:mb-32 w-full md:w-3/4 mx-auto">
+        <section class="py-24 px-4 md:px-12 lg:px-20 w-full md:w-3/4 mx-auto">
             <div class="relative mx-auto p-0 border border-[#ABB2BF] bg-[#121212]">
                 <span class="absolute -top-3 left-5 text-4xl leading-none text-[#ABB2BF] z-10 bg-[#121212] px-1">“</span>
 
@@ -40,28 +40,64 @@
             <div class="flex">
                 <div class="flex flex-col self-end w-fit p-0 border border-[#ABB2BF] bg-[#121212] ml-auto">
                     <p class="text-xl md:text-2xl italic p-8 md:p-10 lg:p-12">
-                        Charkes Eames
+                        Charles Eames
                     </p> 
                 </div>
             </div>
         </section>
   
         <section id="projetos" class="py-24 px-4 md:px-12 lg:px-20 container mx-auto">
-            <h2 class="text-3xl font-bold mb-4 border-b border-green-500 w-fit pb-1">
-                #projetos
-            </h2>
-            
-            <div class="flex justify-end mb-8">
-                <NuxtLink to="/projetos" class="flex items-center text-green-500 hover:text-white transition-colors">
-                    Veja todos 
-                    <span class="ml-2">→</span>
-                </NuxtLink>
+            <div class="flex items-center mb-10">
+                <div class="flex items-center h-full">
+                    <div class="text-3xl font-bold w-fit">
+                        <span class="text-[#3DD9BC]">#</span>
+                        projetos
+                    </div>
+                </div>
+                
+                <div class="h-0.5 bg-[#3DD9BC] flex-1 mx-4"></div>
+                
+                <div>
+                    <NuxtLink to="/projetos" class="flex items-center hover:text-[#3DD9BC] transition-colors">
+                        Veja todos 
+                        <span class="ml-2">→</span>
+                    </NuxtLink>
+                </div>
             </div>
     
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- <ProjectCard />
-                <ProjectCard />
-                <ProjectCard /> -->
+                <div class="border border-[#ABB2BF]">
+                    <div class="h-48 bg-[#ABB2BF]"></div>
+                    <div class="border-b border-[#ABB2BF] text-[#ABB2BF] p-4">
+                        HTML CSS
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-2">Projeto</h3>
+                        <p class="text-[#ABB2BF]">Descrição breve do projeto exemplo 1.</p>
+                        </div>
+                </div>
+
+                <div class="border border-[#ABB2BF]">
+                    <div class="h-48 bg-[#ABB2BF]"></div>
+                    <div class="border-b border-[#ABB2BF] text-[#ABB2BF] p-4">
+                        HTML CSS
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-2">Projeto</h3>
+                        <p class="text-[#ABB2BF]">Descrição breve do projeto exemplo 1.</p>
+                        </div>
+                </div>
+
+                <div class="border border-[#ABB2BF]">
+                    <div class="h-48 bg-[#ABB2BF]"></div>
+                    <div class="border-b border-[#ABB2BF] text-[#ABB2BF] p-4">
+                        HTML CSS
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-2">Projeto</h3>
+                        <p class="text-[#ABB2BF]">Descrição breve do projeto exemplo 1.</p>
+                        </div>
+                </div>
             </div>
         </section>
   
