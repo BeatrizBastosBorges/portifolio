@@ -3,7 +3,7 @@
         <div class="container mx-auto px-4 md:px-12 lg:px-20 py-4 flex justify-between items-center">
   
             <div class="text-lg font-bold flex items-center">
-                <img :src="logoUrl" alt="Logo" class="h-10 w-auto">
+                <img :src="logoUrl" alt="Logo" class="h-8 w-auto">
                 Beatriz
             </div>
   
