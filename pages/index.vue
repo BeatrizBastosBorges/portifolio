@@ -1,14 +1,12 @@
 <template>
     <div class="flex-grow overflow-hidden">
-        <main>
-            <HeroBanner />
-        
-            <div class="bg-[url(@/assets/image/background.svg)] bg-repeat">
-                <QuoteBanner />
+        <HeroBanner />
+    
+        <div class="bg-[url(@/assets/image/background.svg)] bg-repeat">
+            <QuoteBanner />
 
-                <ProjectsBanner/>
-            </div>
-        </main>
+            <ProjectsBanner/>
+        </div>
     </div>
 </template>
   
