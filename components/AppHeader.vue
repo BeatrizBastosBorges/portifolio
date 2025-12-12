@@ -2,10 +2,10 @@
     <header class="sticky top-0 z-50 bg-[#121212]/90 backdrop-blur-md shadow-md">
         <div class="container mx-auto px-4 md:px-12 lg:px-20 py-4 flex justify-between items-center text-white">
  
-            <div class="text-lg font-bold flex items-center z-50">
+            <NuxtLink class="text-lg font-bold flex items-center z-50" to="/">
                 <img :src="logoUrl" alt="Logo" class="h-8 w-auto mr-2">
                 Beatriz
-            </div>
+            </NuxtLink>
  
             <nav class="hidden md:flex space-x-6 text-sm">
                 <NuxtLink v-for="link in navLinks" :key="link.to" :to="link.to" class="text-gray-400 hover:text-white transition-colors flex items-center">
@@ -67,7 +67,7 @@ import logoUrl from '../assets/image/logo.svg'
 const isMenuOpen = ref(false);
 
 const navLinks = [
-    { label: 'início', to: '#inicio' },
+    { label: 'início', to: '/' },
     { label: 'projetos', to: '#projetos' },
     { label: 'sobre-mim', to: '#sobre-mim' },
     { label: 'contatos', to: '/contacts' },
