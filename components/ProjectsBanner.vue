@@ -1,5 +1,5 @@
 <template>
-    <div class="py-12 md:py-20 lg:py-24 px-4 md:px-12 lg:px-20 mx-auto">
+    <div class="py-12 md:py-20 lg:py-24 px-4 md:px-12 lg:px-20 container mx-auto">
         <div class="flex items-center mb-10">
             <div class="flex items-center h-full">
                 <div class="text-3xl font-bold w-fit">
@@ -18,8 +18,8 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="border border-[#ABB2BF]">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#121212]">
+            <div class="border border-[#ABB2BF] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#858BF2]/50">
                 <div class="h-48 bg-[#ABB2BF]"></div>
                 <div class="border-b border-[#ABB2BF] text-[#ABB2BF] p-4">
                     HTML CSS
@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="border border-[#ABB2BF]">
+            <div class="border border-[#ABB2BF] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#858BF2]/50">
                 <div class="h-48 bg-[#ABB2BF]"></div>
                 <div class="border-b border-[#ABB2BF] text-[#ABB2BF] p-4">
                     HTML CSS
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="border border-[#ABB2BF]">
+            <div class="border border-[#ABB2BF] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#858BF2]/50">
                 <div class="h-48 bg-[#ABB2BF]"></div>
                 <div class="border-b border-[#ABB2BF] text-[#ABB2BF] p-4">
                     HTML CSS

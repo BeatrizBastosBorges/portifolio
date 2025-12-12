@@ -1,11 +1,14 @@
 <template>
-    <div class="flex-grow overflow-hidden container mx-auto">
+    <div class="flex-grow overflow-hidden">
         <main>
             <HeroBanner />
         
-            <QuoteBanner />
+            <div class="bg-[url(@/assets/image/background.svg)] bg-repeat">
+                <QuoteBanner />
 
-            <ProjectsBanner />
+                <ProjectsBanner/>
+            </div>
+
         
             <!-- <section id="projetos" class="py-12 md:py-20 lg:py-24 px-4 md:px-12 lg:px-20 container mx-auto bg-[url(@/assets/image/background.svg)] bg-repeat">
                 <div class="flex items-center mb-10">

@@ -1,5 +1,5 @@
 <template>
-    <div class="py-12 md:py-20 lg:py-24 px-4 md:px-12 lg:px-20 w-3/4 mx-auto">
+    <div class="py-12 md:py-20 lg:py-24 px-4 md:px-12 lg:px-20 w-3/4 container mx-auto">
         <div class="relative mx-auto p-0 border border-[#ABB2BF] bg-[#121212]">
             <span class="absolute -top-3 left-5 text-4xl leading-none text-[#ABB2BF] z-10 bg-[#121212] px-1">“</span>
 
