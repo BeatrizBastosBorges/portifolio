@@ -18,7 +18,7 @@
 
             <div class="lg:flex justify-center lg:justify-end relative">
                 <div class="w-full max-w-md h-80 flex items-center justify-center text-[#ABB2BF]">
-                    <img :src="meUrl" alt="Logo" />
+                    <img :src="meUrl" alt="Beatriz Bastos Borges" />
                 </div>
             </div>
         </div>
