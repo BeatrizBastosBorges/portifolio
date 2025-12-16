@@ -10,13 +10,13 @@
                         Beatriz
                     </NuxtLink>
                     
-                    <p class="text-gray-400 text-sm">Desenvolvedora front-end</p>
+                    <p class="text-[#ABB2BF] text-sm">Desenvolvedora front-end</p>
                 </div>
   
                 <div class="flex flex-col items-center">
                     <span class="font-bold mb-2 text-2xl">Mídia</span>
             
-                    <div class="flex space-x-4 text-gray-400">
+                    <div class="flex space-x-4 text-[#ABB2BF]">
                         <a href="https://github.com/BeatrizBastosBorges" target="_blank" class="hover:text-[#858BF2] transition-colors">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg"  
@@ -70,7 +70,7 @@
             </div>
   
             <div class="text-center pt-4">
-                <p class="text-xs text-gray-500">© Copyright 2025. Made with 🩵 by Beatriz B. Borges</p>
+                <p class="text-xs text-[#ABB2BF]">© Copyright 2025. Made with 🩵 by Beatriz B. Borges</p>
             </div>
         </div>
     </footer>

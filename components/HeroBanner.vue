@@ -6,7 +6,7 @@
                     Sou uma <span class="text-[#858BF2]">desenvolvedora web</span>
                 </p>
 
-                <p class="text-gray-400 text-lg mb-8 max-w-lg">
+                <p class="text-[#ABB2BF] text-lg mb-8 max-w-lg">
                     Transformo ideias em sistemas de alta perfomance.
                 </p>
 
@@ -17,7 +17,7 @@
             </div>
 
             <div class="lg:flex justify-center lg:justify-end relative">
-                <div class="w-full max-w-md h-80 flex items-center justify-center text-gray-400">
+                <div class="w-full max-w-md h-80 flex items-center justify-center text-[#ABB2BF]">
                     <img :src="meUrl" alt="Logo" />
                 </div>
             </div>

@@ -13,7 +13,7 @@
                 </NuxtLink>
 
                 <!-- <div class="hidden md:flex items-center ml-4 border-l border-gray-700 pl-4">
-                    <span class="text-xl text-gray-400 font-semibold">PT-BR ▾</span>
+                    <span class="text-xl text-[#ABB2BF] font-semibold">PT-BR ▾</span>
                 </div> -->
             </nav>
 
@@ -52,7 +52,7 @@
                     </NuxtLink>
     
                     <!-- <div class="mt-8 pt-4">
-                        <span class="text-xl text-gray-400 font-semibold">PT-BR ▾</span>
+                        <span class="text-xl text-[#ABB2BF] font-semibold">PT-BR ▾</span>
                     </div> -->
                 </nav>
             </transition>
@@ -90,7 +90,7 @@ const navLinks = [
        cursor: pointer;
        position: relative;
     }
-   
+
     .bar {
        position: relative;
        height: var(--height-bar);
