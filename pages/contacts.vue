@@ -7,30 +7,32 @@
                 <span class="text-[#858BF2] mr-2">/</span>contatos
             </h1>
     
-            <div class="max-w-xl">
-                <p class="text-gray-400 text-lg mb-8">
-                    Estou sempre aberta a novas oportunidades e projetos. Sinta-se à vontade para me contatar através de qualquer um dos canais abaixo.
-                </p>
-                
+            <div class="max-w-xl text-[#ABB2BF]">
                 <ul class="space-y-6">
-                    <li class="flex items-center">
-                        <span class="text-2xl text-[#3DD9BC] mr-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.104V9.295h3.411v1.564h.045c.474-.854 1.638-1.853 3.37-1.853 3.619 0 4.298 2.373 4.298 5.422v6.231zM5.449 3.75C3.882 3.75 2.5 5.084 2.5 6.647 2.5 8.212 3.883 9.546 5.449 9.546c1.566 0 2.859-1.334 2.859-2.899 0-1.563-1.293-2.898-2.859-2.898zM3.692 20.452h3.518V9.295H3.692v11.157z"/>
+                    <li class="w-fit group">
+                        <a href="https://linkedin.com/in/beatrizbastosborges" target="_blank" class="flex items-center gap-2">
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                width="24" 
+                                height="24" 
+                                fill="currentColor" 
+                                viewBox="0 0 16 16"
+                                class="group-hover:text-[#3DD9BC] transition-colors"
+                            >
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
                             </svg>
-                        </span>
-                        <a href="https://linkedin.com/in/beatrizbastosborges" target="_blank" class="text-gray-400 hover:text-white transition-colors text-lg">
-                            /in/beatrizbastosborges
+                            <p class="group-hover:text-white transition-colors">/in/beatrizbastosborges</p>
                         </a>
                     </li>
                     
-                    <li class="flex items-center text-gray-400 hover:text-white gap-2">
-                        <a href="https://github.com/BeatrizBastosBorges" target="_blank" class="transition-colors">
+                    <li class="w-fit group">
+                        <a href="https://github.com/BeatrizBastosBorges" target="_blank" class="flex items-center gap-2">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg"  
                                 width="24" 
                                 height="24" 
                                 viewBox="0,0,256,256"
+                                class="group-hover:text-[#858BF2] transition-colors"
                             >
                                 <g 
                                     fill="currentColor" 
@@ -53,31 +55,44 @@
                                     </g>
                                 </g>
                             </svg>
-                        </a>
-                        <a href="https://github.com/BeatrizBastosBorges" target="_blank" class="transition-colors text-lg">
-                            /BeatrizBastosBorges
+                            <p class="group-hover:text-white transition-colors">/BeatrizBastosBorges</p>
                         </a>
                     </li>
                     
-                    <li class="flex items-center">
-                        <span class="text-2xl text-[#3DD9BC] mr-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M0 3v18h24v-18h-24zm6.623 12.771c-.13-.122-.178-.309-.138-.494l.872-3.79c.07-.305-.138-.592-.439-.623l-3.298-.328c-.3-.031-.571-.137-.738-.387l-.022-.03c-.225-.33-.038-.809.431-.951l4.743-1.46c.307-.094.619-.247.781-.535l2.42-3.729c.216-.33.682-.33.898 0l2.42 3.729c.162.288.474.441.781.535l4.743 1.46c.47.142.656.621.431.951l-.022.03c-.167.25-.438.356-.738.387l-3.298.328c-.301.031-.509.318-.439.623l.872 3.79c.04.185-.008.372-.138.494l-2.433 2.277c-.22.206-.554.206-.774 0l-2.433-2.277z"/>
+                    <li class="w-fit group">
+                        <a :href="'mailto:' + 'biaborges.estudante@gmail.com'" class="flex items-center gap-2">
+                            <svg 
+                                class="w-6 h-6 group-hover:text-[#3DD9BC] transition-colors"
+                                aria-hidden="true" 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                width="24" 
+                                height="24" 
+                                fill="currentColor" 
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M2.038 5.61A2.01 2.01 0 0 0 2 6v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6c0-.12-.01-.238-.03-.352l-.866.65-7.89 6.032a2 2 0 0 1-2.429 0L2.884 6.288l-.846-.677Z"/>
+                                <path d="M20.677 4.117A1.996 1.996 0 0 0 20 4H4c-.225 0-.44.037-.642.105l.758.607L12 10.742 19.9 4.7l.777-.583Z"/>
                             </svg>
-                        </span>
-                        <a :href="'mailto:' + 'biaborges.estudante@gmail.com'" class="text-gray-400 hover:text-white transition-colors text-lg">
-                            biaborges.estudante@gmail.com
+                            <p class="group-hover:text-white transition-colors">biaborges.estudante@gmail.com</p>
                         </a>
                     </li>
                     
-                    <li class="flex items-center">
-                        <span class="text-2xl text-[#3DD9BC] mr-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M0 3v18h24v-18h-24zm6.623 12.771c-.13-.122-.178-.309-.138-.494l.872-3.79c.07-.305-.138-.592-.439-.623l-3.298-.328c-.3-.031-.571-.137-.738-.387l-.022-.03c-.225-.33-.038-.809.431-.951l4.743-1.46c.307-.094.619-.247.781-.535l2.42-3.729c.216-.33.682-.33.898 0l2.42 3.729c.162.288.474.441.781.535l4.743 1.46c.47.142.656.621.431.951l-.022.03c-.167.25-.438.356-.738.387l-3.298.328c-.301.031-.509.318-.439.623l.872 3.79c.04.185-.008.372-.138.494l-2.433 2.277c-.22.206-.554.206-.774 0l-2.433-2.277z"/>
+                    <li class="w-fit group">
+                        <a :href="'mailto:' + 'biaborges.estudante@gmail.com'" class="flex items-center gap-2">
+                            <svg 
+                                class="w-6 h-6 group-hover:text-[#858BF2] transition-colors"
+                                aria-hidden="true" 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                width="24" 
+                                height="24" 
+                                fill="currentColor" 
+                                viewBox="0 0 24 24"
+                                
+                            >
+                                <path d="M2.038 5.61A2.01 2.01 0 0 0 2 6v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6c0-.12-.01-.238-.03-.352l-.866.65-7.89 6.032a2 2 0 0 1-2.429 0L2.884 6.288l-.846-.677Z"/>
+                                <path d="M20.677 4.117A1.996 1.996 0 0 0 20 4H4c-.225 0-.44.037-.642.105l.758.607L12 10.742 19.9 4.7l.777-.583Z"/>
                             </svg>
-                        </span>
-                        <a :href="'mailto:' + 'beatrizbastosborges1104@gmail.com'" class="text-gray-400 hover:text-white transition-colors text-lg">
-                            beatrizbastosborges1104@gmail.com
+                            <p class="group-hover:text-white transition-colors">beatrizbastosborges1104@gmail.com</p>
                         </a>
                     </li>
                 </ul>
@@ -87,7 +102,6 @@
 </template>
 
 <script setup>
-// Configuração de meta tags, se for uma página Nuxt
 useHead({
     title: 'Beatriz | Contatos',
     meta: [
