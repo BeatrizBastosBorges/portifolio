@@ -69,7 +69,7 @@ const isMenuOpen = ref(false);
 const navLinks = [
     { label: 'início', to: '/' },
     { label: 'projetos', to: '#projetos' },
-    { label: 'sobre-mim', to: '#sobre-mim' },
+    { label: 'sobre-mim', to: '/about' },
     { label: 'contatos', to: '/contacts' },
 ]
 </script>
