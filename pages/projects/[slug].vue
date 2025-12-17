@@ -7,7 +7,7 @@
         </h1>
         <p class="mb-12 text-[#ABB2BF]">{{ doc.description }}</p>
 
-        <div class="grid lg:grid-cols-2 gap-12">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
           <img :src="doc.image" :alt="doc.title" class="w-full" />
 
           <div class="prose prose-invert max-w-none text-justify">

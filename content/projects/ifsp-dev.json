@@ -1,0 +1,23 @@
+{
+    "title": "IFSP DEV",
+    "description": "Minicurso de Introdução à Lógica de Programação para estudantes iniciantes.",
+    "image": "/projects/ifsp-dev.png",
+    "tags": ["Lógica de Programação", "Ensino", "Portugol"],
+    "link": "https://sites.google.com/view/ifspdev/",
+    "date": "2024",
+    "about": "Condução de minicurso de extensão focado no ensino de algoritmos e lógica para alunos do ensino médio e fundamental.",
+    "contributions": [
+      {
+        "item": "Material Didático",
+        "text": "Elaboração de apostilas e exercícios práticos para facilitar a aprendizagem."
+      },
+      {
+        "item": "Instrução Técnica",
+        "text": "Utilização do Portugol Studio para ensinar estruturas de repetição e lógica de forma visual."
+      },
+      {
+        "item": "Engajamento",
+        "text": "Promoção de atividades práticas que incentivam a resolução de problemas reais através do código."
+      }
+    ]
+  }
