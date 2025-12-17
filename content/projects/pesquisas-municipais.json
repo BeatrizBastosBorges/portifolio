@@ -1,5 +1,5 @@
 {
-  "title": "Pesquisas Municipais",
+  "title": "pesquisas municipais",
   "description": "Interface de exibição de resultados de pesquisas com indicadores em tempo real.",
   "image": "/projects/prefeitura-santos.png",
   "tags": ["Vue.js", "TailwindCSS", "Laravel", "Chart.js"],

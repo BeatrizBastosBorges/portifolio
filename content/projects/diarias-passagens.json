@@ -1,5 +1,5 @@
 {
-  "title": "Portal Diárias e Passagens",
+  "title": "portal diárias e passagens",
   "description": "Sistema de gestão de viagens corporativas da Prefeitura Municipal de Santos.",
   "image": "/projects/prefeitura-santos.png",
   "tags": ["Vue.js", "TailwindCSS", "A11Y"],
