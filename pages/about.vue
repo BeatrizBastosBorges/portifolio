@@ -58,7 +58,7 @@
 <script setup lang="ts">
 import meUrl from '@/assets/image/me-standing.svg'
 import star from '@/assets/image/logo2.svg'
-import curriculo from '@/assets/docs/curriculo.pdf'
+import curriculo from '@/assets/doc/curriculo.pdf'
 
 useHead({
     title: 'Beatriz | Sobre-mim',
