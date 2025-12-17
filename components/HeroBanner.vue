@@ -1,5 +1,5 @@
 <template>
-    <div id="inicio" class="py-12 md:py-20 lg:py-24 px-4 md:px-12 lg:px-20 mx-auto container mx-auto">
+    <div id="inicio" class="py-12 md:py-20 lg:py-24 px-4 md:px-12 lg:px-20 mx-auto container">
         <div class="grid lg:grid-cols-2 gap-12 justify-items-center">
             <div>
                 <p class="text-2xl md:text-4xl font-semibold mb-8">
