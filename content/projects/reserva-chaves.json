@@ -1,23 +1,23 @@
 {
-    "title": "sistema de reserva de chave",
-    "description": "Sistema para gestão e controlo de chaves e permissões de acesso no IFSP.",
-    "image": "/projects/reserva-chave.png",
-    "tags": ["React", "Node.js", "MySQL", "Figma"],
-    "link": "https://github.com/Laysabernardes/ReservaDeChavesIFSP",
-    "date": "2023",
-    "about": "Desenvolvido como projeto académico no IFSP, este sistema visa otimizar a gestão de chaves entre alunos e servidores, garantindo maior segurança e rastreabilidade.",
-    "contributions": [
-      {
-        "item": "Backend & API",
-        "text": "Desenvolvimento de uma API robusta utilizando Express e Node.js para gerir reservas e utilizadores."
-      },
-      {
-        "item": "Banco de Dados",
-        "text": "Modelagem e normalização de base de dados MySQL para armazenamento eficiente de logs de acesso."
-      },
-      {
-        "item": "Design de Interface",
-        "text": "Prototipagem completa da interface no Figma, focando na experiência do utilizador (UX)."
-      }
-    ]
-  }
+  "title": "sistema de reserva de chave",
+  "description": "Sistema para gestão e controlo de chaves e permissões de acesso no IFSP.",
+  "image": "/projects/reserva-chave.png",
+  "tags": ["React", "Node.js", "MySQL", "Figma"],
+  "link": "https://github.com/Laysabernardes/ReservaDeChavesIFSP",
+  "date": "2023",
+  "about": "Desenvolvido como projeto académico no IFSP, este sistema visa otimizar a gestão de chaves entre alunos e servidores, garantindo maior segurança e rastreabilidade.",
+  "contributions": [
+    {
+      "item": "Backend & API",
+      "text": "Desenvolvimento de uma API robusta utilizando Express e Node.js para gerir reservas e utilizadores."
+    },
+    {
+      "item": "Banco de Dados",
+      "text": "Modelagem e normalização de base de dados MySQL para armazenamento eficiente de logs de acesso."
+    },
+    {
+      "item": "Design de Interface",
+      "text": "Prototipagem completa da interface no Figma, focando na experiência do utilizador (UX)."
+    }
+  ]
+}

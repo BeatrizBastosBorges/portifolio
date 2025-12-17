@@ -1,0 +1,22 @@
+{
+  "title": "Portal Diárias e Passagens",
+  "description": "Sistema de gestão de viagens corporativas da Prefeitura Municipal de Santos.",
+  "image": "/projects/prefeitura-santos.png",
+  "tags": ["Vue.js", "TailwindCSS", "A11Y"],
+  "date": "2024 - 2025",
+  "about": "Desenvolvimento da interface pública para gestão de diárias e passagens, focando na transparência dos gastos municipais.",
+  "contributions": [
+    {
+      "item": "Desenvolvimento Frontend",
+      "text": "Criação de todas as telas com Vue.js e TailwindCSS, garantindo 100% de responsividade."
+    },
+    {
+      "item": "Análise de Dados",
+      "text": "Levantamento, tratamento e priorização de dados públicos para a definição dos indicadores exibidos."
+    },
+    {
+      "item": "Acessibilidade",
+      "text": "Implementação de padrões rigorosos de acessibilidade para garantir o acesso de todos os cidadãos."
+    }
+  ]
+}

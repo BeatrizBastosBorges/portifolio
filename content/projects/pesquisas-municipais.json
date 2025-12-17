@@ -1,0 +1,22 @@
+{
+  "title": "Pesquisas Municipais",
+  "description": "Interface de exibição de resultados de pesquisas com indicadores em tempo real.",
+  "image": "/projects/prefeitura-santos.png",
+  "tags": ["Vue.js", "TailwindCSS", "Laravel", "Chart.js"],
+  "date": "2024",
+  "about": "Interface desenvolvida para a Prefeitura de Santos para apresentar resultados de pesquisas municipais de forma clara e interativa.",
+  "contributions": [
+    {
+      "item": "Visualização de Dados",
+      "text": "Criação de gráficos interativos com Chart.js para visualização de tendências."
+    },
+    {
+      "item": "Integração API",
+      "text": "Implementação de endpoints REST em Laravel para fornecer filtragens dinâmicas de dados."
+    },
+    {
+      "item": "Interface",
+      "text": "Desenvolvimento frontend com foco em usabilidade e rapidez no carregamento dos dados."
+    }
+  ]
+}
