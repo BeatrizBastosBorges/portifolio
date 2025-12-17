@@ -1,0 +1,33 @@
+{
+  "title": "portal de dados abertos de santos",
+  "description": "Interface pública de transparência municipal desenvolvida para a Prefeitura de Santos.",
+  "image": "/projects/prefeitura-santos.png",
+  "tags": ["Vue.js", "TailwindCSS", "Laravel", "Chart.js"],
+  "link": "https://egov.santos.sp.gov.br/dadosabertos/",
+  "date": "2024",
+  "about": "Durante minha experiência na Prefeitura de Santos, trabalhei no desenvolvimento de telas críticas para o Portal de Dados Abertos.",
+  "contributions": [
+    {
+      "item": "Comparação de Metas",
+      "text": "Desenvolvi a tela 'Comparar Metas' utilizando Vue.js e TailwindCSS."
+    },
+    {
+      "item": "Gráficos Interativos",
+      "text": "Implementei a visualização de dados com Chart.js."
+    },
+    {
+      "item": "Menu de Acessibilidade (A11Y)",
+      "text": "Desenvolvi e implementei um menu de acessibilidade completo.",
+      "subitems": [
+        "Ajuste dinâmico de tamanho de fonte.",
+        "Controlador de espaçamento.",
+        "Alteração de contraste e cores.",
+        "Destaque visual de links."
+      ]
+    },
+    {
+      "item": "Backend",
+      "text": "Auxiliei na implementação de endpoints REST em Laravel."
+    }
+  ]
+}
