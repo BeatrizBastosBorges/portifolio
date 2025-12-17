@@ -10,10 +10,10 @@
                     Transformo ideias em sistemas de alta perfomance.
                 </p>
 
-                <a href="#"
+                <NuxtLink to="/about"
                     class="inline-block px-6 py-3 border border-[#3DD9BC] hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors font-medium">
                     Saiba mais!
-                </a>
+                </NuxtLink>
             </div>
 
             <div class="lg:flex justify-center lg:justify-end relative">

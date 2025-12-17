@@ -11,15 +11,15 @@
             <div class="h-0.5 bg-[#3DD9BC] flex-1 mx-4"></div>
 
             <div>
-                <NuxtLink to="/projetos" class="flex items-center hover:text-[#3DD9BC] transition-colors">
+                <NuxtLink to="/projects" class="flex items-center hover:text-[#3DD9BC] transition-colors">
                     Veja todos
                     <span class="ml-2">→</span>
                 </NuxtLink>
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#121212]">
-            <div class="border border-[#ABB2BF] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#858BF2]/50">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-[#121212]/75 border border-[#ABB2BF] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#858BF2]/50">
                 <div class="h-48 bg-[#ABB2BF]"></div>
                 <div class="border-b border-[#ABB2BF] text-[#ABB2BF] p-4">
                     HTML CSS
@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <div class="border border-[#ABB2BF] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#858BF2]/50">
+            <div class="bg-[#121212]/75 border border-[#ABB2BF] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#858BF2]/50">
                 <div class="h-48 bg-[#ABB2BF]"></div>
                 <div class="border-b border-[#ABB2BF] text-[#ABB2BF] p-4">
                     HTML CSS
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="border border-[#ABB2BF] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#858BF2]/50">
+            <div class="bg-[#121212]/75 border border-[#ABB2BF] transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-[#858BF2]/50">
                 <div class="h-48 bg-[#ABB2BF]"></div>
                 <div class="border-b border-[#ABB2BF] text-[#ABB2BF] p-4">
                     HTML CSS

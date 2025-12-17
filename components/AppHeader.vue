@@ -68,7 +68,7 @@ const isMenuOpen = ref(false);
 
 const navLinks = [
     { label: 'início', to: '/' },
-    { label: 'projetos', to: '#projetos' },
+    { label: 'projetos', to: '/projects' },
     { label: 'sobre-mim', to: '/about' },
     { label: 'contatos', to: '/contacts' },
 ]
