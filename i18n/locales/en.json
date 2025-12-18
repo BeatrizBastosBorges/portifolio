@@ -14,5 +14,10 @@
   "quote": {
     "text": "Design is not just what it looks like and feels like. Design is how it works.",
     "author": "Charles Eames"
+  },
+  "footer": {
+    "role": "Web Developer",
+    "media": "Media",
+    "rights": "© Copyright 2025. Made with 🩵 by Beatriz B. Borges"
   }
 }
