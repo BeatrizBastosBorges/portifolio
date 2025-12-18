@@ -11,10 +11,12 @@
 </template>
   
 <script setup>
+const { t } = useI18n()
+
 useHead({
-    title: 'Beatriz | Desenvolvedora Web',
+    title: computed(() => `Beatriz | ${t('hero.role')}`),
     meta: [
-        { name: 'description', content: 'Portfolio pessoal de uma desenvolvedora web.' }
+        { name: 'description', content: computed(() => t('hero.description')) }
     ]
 })
 </script>

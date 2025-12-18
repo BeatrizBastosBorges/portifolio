@@ -10,5 +10,9 @@
     "role": "desenvolvedora web",
     "description": "Transformo ideias em sistemas de alta perfomance.",
     "button": "Saiba mais!"
+  },
+  "quote": {
+    "text": "O design não é apenas o que parece e o que se sente. Design é como funciona.",
+    "author": "Charles Eames"
   }
 }

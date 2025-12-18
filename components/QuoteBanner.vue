@@ -5,7 +5,7 @@
 
             <div class="p-8 md:p-10 lg:p-12">
                 <p class="text-xl md:text-2xl italic">
-                    O design não está apenas no que se vê, mas no que se sente.
+                    {{ $t('quote.text') }}
                 </p>
             </div>
 
@@ -16,7 +16,7 @@
         <div class="flex">
             <div class="flex flex-col self-end w-fit p-0 border border-[#ABB2BF] bg-[#121212] ml-auto">
                 <p class="text-xl md:text-2xl italic p-8 md:p-10 lg:p-12">
-                    Charles Eames
+                    {{ $t('quote.author') }}
                 </p>
             </div>
         </div>
