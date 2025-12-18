@@ -4,5 +4,11 @@
     "projects": "projetos",
     "about": "sobre-mim",
     "contacts": "contatos"
+  },
+  "hero": {
+    "greeting": "Sou uma",
+    "role": "desenvolvedora web",
+    "description": "Transformo ideias em sistemas de alta perfomance.",
+    "button": "Saiba mais!"
   }
 }

@@ -4,5 +4,11 @@
     "projects": "projects",
     "about": "about",
     "contacts": "contacts"
+  },
+  "hero": {
+    "greeting": "I am a",
+    "role": "web developer",
+    "description": "I transform ideas into high-performance systems.",
+    "button": "Learn more!"
   }
 }

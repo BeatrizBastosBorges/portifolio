@@ -3,16 +3,16 @@
         <div class="grid lg:grid-cols-2 gap-12 justify-items-center">
             <div>
                 <p class="text-2xl md:text-4xl font-semibold mb-8">
-                    Sou uma <span class="text-[#858BF2]">desenvolvedora web</span>
+                    {{ $t('hero.greeting') }} <span class="text-[#858BF2]">{{ $t('hero.role') }}</span>
                 </p>
 
                 <p class="text-[#ABB2BF] text-lg mb-8 max-w-lg">
-                    Transformo ideias em sistemas de alta perfomance.
+                    {{ $t('hero.description') }}
                 </p>
 
                 <NuxtLink to="/about"
                     class="inline-block px-6 py-3 border border-[#3DD9BC] hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors font-medium">
-                    Saiba mais!
+                    {{ $t('hero.button') }}
                 </NuxtLink>
             </div>
 
