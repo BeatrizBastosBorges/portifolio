@@ -19,5 +19,23 @@
     "role": "Desenvolvedora web",
     "media": "Mídia",
     "rights": "© Copyright 2025. Feito com 🩵 por Beatriz B. Borges"
+  },
+  "about": {
+    "title": "sobre-mim",
+    "subtitle": "Quem sou eu?",
+    "description": [
+      "Olá! Me chamo Beatriz!",
+      "Sou Tecnóloga em Análise e Desenvolvimento de Sistemas, com foco e entusiasmo pelas áreas front-end e back-end. Estou sediada em Praia Grande - São Paulo.",
+      "Minha paixão é transformar ideias em sistemas de alta performance, desenvolvendo interfaces web modernas, responsivas e acessíveis, além de garantir a otimização de rotinas e processos internos."
+    ],
+    "button": "Veja meu Currículo!",
+    "skills_title": "skills", 
+    "categories": {
+      "languages": "Linguagens",
+      "databases": "Bancos de Dados",
+      "frameworks": "Frameworks",
+      "tools": "Ferramentas",
+      "other": "Outros"
+    }
   }
 }

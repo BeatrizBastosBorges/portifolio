@@ -2,7 +2,7 @@
   "nav": {
     "home": "home",
     "projects": "projects",
-    "about": "about",
+    "about": "about-me",
     "contacts": "contacts"
   },
   "hero": {
@@ -19,5 +19,23 @@
     "role": "Web Developer",
     "media": "Media",
     "rights": "© Copyright 2025. Made with 🩵 by Beatriz B. Borges"
+  },
+  "about": {
+    "title": "about-me",
+    "subtitle": "Who am I?",
+    "description": [
+      "Hello, I am Beatriz!",
+      "I am a Technologist in Systems Analysis and Development, with a focus and enthusiasm for front-end and back-end areas. I am based in Praia Grande - São Paulo.",
+      "My passion is transforming ideas into high-performance systems, developing modern, responsive, and accessible web interfaces, as well as ensuring the optimization of internal routines and processes."
+    ],
+    "button": "View my Resume!",
+    "skills_title": "skills",
+    "categories": {
+      "languages": "Languages",
+      "databases": "Databases",
+      "frameworks": "Frameworks",
+      "tools": "Tools",
+      "other": "Other"
+    }
   }
 }
