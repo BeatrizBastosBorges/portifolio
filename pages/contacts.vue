@@ -7,7 +7,7 @@
                 <span class="text-[#858BF2] mr-2">/</span>contatos
             </h1>
     
-            <div class="max-w-xl text-[#ABB2BF]">
+            <div class="max-w-xl text-[#ABB2BF] bg-[#121212]/70 rounded">
                 <ul class="space-y-6">
                     <li class="w-fit group">
                         <a href="https://linkedin.com/in/beatrizbastosborges" target="_blank" class="flex items-center gap-2">
