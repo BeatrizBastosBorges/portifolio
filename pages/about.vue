@@ -10,7 +10,7 @@
                 <div class="flex flex-col gap-6 text-justify bg-[#121212]/70 rounded">
                     <p class="text-[#ABB2BF]">Olá, sou a Beatriz!</p>
 
-                    <p class="text-[#ABB2BF]">Sou uma Tecnóloga em Análise e Desenvolvimento de Sistemas formada, com foco e entusiasmo pelas áreas front-end e back-end. Estou sediada em Praia Grande - São Paulo.</p>
+                    <p class="text-[#ABB2BF]">Sou Tecnóloga em Análise e Desenvolvimento de Sistemas, com foco e entusiasmo pelas áreas front-end e back-end. Estou sediada em Praia Grande - São Paulo.</p>
 
                     <p class="text-[#ABB2BF]">Minha paixão é transformar ideias em sistemas de alta performance, desenvolvendo interfaces web modernas, responsivas e acessíveis, além de garantir a otimização de rotinas e processos internos.</p>
                     
