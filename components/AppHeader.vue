@@ -12,9 +12,22 @@
                     <span class="text-[#3DD9BC] mr-1">#</span>{{ link.label }}
                 </NuxtLink>
 
-                <!-- <div class="hidden md:flex items-center ml-4 border-l border-gray-700 pl-4">
-                    <span class="text-xl text-[#ABB2BF] font-semibold">PT-BR ▾</span>
-                </div> -->
+                <div class="hidden md:flex items-center ml-4 border-l border-gray-700 pl-4">
+                    <select 
+                        v-model="locale" 
+                        class="w-full text-sm text-body bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-brand peer"
+                    >
+                        <option 
+                            v-for="lang in locales" 
+                            :key="lang.code" 
+                            :value="lang.code"
+                            class="bg-[#121212] text-white"
+                        >
+                            {{ lang.code.toUpperCase() }}
+                        </option>
+                    </select>
+                    <span class="text-[#ABB2BF] text-xs ml-1 pointer-events-none">▾</span>
+                </div>
             </nav>
 
             <div class="md:hidden flex items-center p-2 z-50">
@@ -51,9 +64,22 @@
                         <span class="text-[#3DD9BC] mr-2 text-3xl">#</span>{{ link.label }}
                     </NuxtLink>
     
-                    <!-- <div class="mt-8 pt-4">
-                        <span class="text-xl text-[#ABB2BF] font-semibold">PT-BR ▾</span>
-                    </div> -->
+                    <div class="mt-8 pt-4">
+                        <select 
+                            v-model="locale" 
+                            @change="isMenuOpen = false"
+                            class="bg-transparent text-white text-xl font-bold focus:outline-none"
+                        >
+                            <option 
+                                v-for="lang in locales" 
+                                :key="lang.code" 
+                                :value="lang.code"
+                                class="bg-[#121212]"
+                            >
+                                {{ lang.name }}
+                            </option>
+                        </select>
+                    </div>
                 </nav>
             </transition>
         </div>
@@ -64,14 +90,16 @@
 import { ref } from 'vue';
 import logoUrl from '../assets/image/logo.svg'
 
+const { locale, locales, t } = useI18n()
+
 const isMenuOpen = ref(false);
 
-const navLinks = [
-    { label: 'início', to: '/' },
-    { label: 'projetos', to: '/projects' },
-    { label: 'sobre-mim', to: '/about' },
-    { label: 'contatos', to: '/contacts' },
-]
+const navLinks = computed(() => [
+    { label: t('nav.home'), to: '/' },
+    { label: t('nav.projects'), to: '/projects' },
+    { label: t('nav.about'), to: '/about' },
+    { label: t('nav.contacts'), to: '/contacts' },
+])
 </script>
 
 <style scoped>
