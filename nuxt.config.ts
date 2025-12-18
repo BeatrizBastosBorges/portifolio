@@ -11,5 +11,12 @@ export default defineNuxtConfig({
     markdown: {
       anchorLinks: false,
     }
+  },
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
+      ]
+    }
   }
 })
