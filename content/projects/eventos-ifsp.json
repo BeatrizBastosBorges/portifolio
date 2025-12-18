@@ -2,7 +2,7 @@
     "title": "sistema de organização de eventos ifsp",
     "description": "Interface web para gestão e organização de eventos acadêmicos utilizando React.js.",
     "image": "/projects/ifsp-cubatao.png",
-    "tags": ["React.js", "Frontend", "JavaScript", "Gestão de Eventos"],
+    "tags": ["React.js", "JavaScript"],
     "github": "https://github.com/giovanne-aquino/app-eventos-IFSP",
     "date": "2025",
     "about": "Este projeto foi desenvolvido para facilitar a organização de eventos dentro do IFSP, permitindo o gerenciamento de inscrições e visualização de cronogramas através de uma interface moderna.",

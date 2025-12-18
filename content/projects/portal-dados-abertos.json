@@ -2,7 +2,7 @@
   "title": "portal de dados abertos de santos",
   "description": "Interface pública de transparência municipal desenvolvida para a Prefeitura de Santos.",
   "image": "/projects/prefeitura-santos.png",
-  "tags": ["Vue.js", "TailwindCSS", "Laravel", "Chart.js"],
+  "tags": ["Vue.js", "TailwindCSS", "Laravel"],
   "link": "https://egov.santos.sp.gov.br/dadosabertos/",
   "date": "2024",
   "about": "Durante minha experiência na Prefeitura de Santos, trabalhei no desenvolvimento de telas críticas para o Portal de Dados Abertos.",

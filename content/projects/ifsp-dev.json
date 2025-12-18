@@ -2,7 +2,7 @@
   "title": "ifsp dev",
   "description": "Minicurso de Introdução à Lógica de Programação para estudantes iniciantes.",
   "image": "/projects/ifsp-dev.png",
-  "tags": ["Lógica de Programação", "Ensino", "Portugol"],
+  "tags": ["Portugol"],
   "link": "https://sites.google.com/view/ifspdev/",
   "date": "2024",
   "about": "Condução de minicurso de extensão focado no ensino de algoritmos e lógica para alunos do ensino médio e fundamental.",

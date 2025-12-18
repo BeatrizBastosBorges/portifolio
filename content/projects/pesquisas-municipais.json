@@ -2,7 +2,7 @@
   "title": "pesquisas municipais",
   "description": "Interface de exibição de resultados de pesquisas com indicadores em tempo real.",
   "image": "/projects/prefeitura-santos.png",
-  "tags": ["Vue.js", "TailwindCSS", "Laravel", "Chart.js"],
+  "tags": ["Vue.js", "TailwindCSS", "Laravel"],
   "date": "2024",
   "about": "Interface desenvolvida para a Prefeitura de Santos para apresentar resultados de pesquisas municipais de forma clara e interativa.",
   "contributions": [
