@@ -4,7 +4,7 @@
         <div class="min-h-screen pt-24 pb-12 px-4 md:px-12 lg:px-20 container mx-auto">
             
             <h1 class="text-3xl md:text-5xl font-bold mb-12 flex items-center">
-                <span class="text-[#858BF2] mr-2">/</span>contatos
+                <span class="text-[#858BF2] mr-2">/</span>{{$t('contacts')}}
             </h1>
     
             <div class="max-w-xl text-[#ABB2BF] bg-[#121212]/70 rounded">
