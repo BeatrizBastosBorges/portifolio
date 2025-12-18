@@ -1,75 +1,28 @@
-# Nuxt Minimal Starter
+# 🚀 Meu Portfólio - Beatriz Bastos Borges
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este é o meu portfólio pessoal construído com **Nuxt.js**. O objetivo deste projeto é centralizar meus projetos, habilidades e formas de contato em um único lugar com alta performance.
 
-## Setup
+📍 **Link do Projeto:** [portifolio-beatriz-bastos-borges.vercel.app](https://portifolio-beatriz-bastos-borges.vercel.app)
 
-Make sure to install dependencies:
+## 🛠️ Tecnologias
+* **Framework:** [Nuxt 3](https://nuxt.com/)
+* **Gerenciamento de Conteúdo:** [@nuxt/content](https://content.nuxt.com) (Markdown para os projetos)
+* **Estilização:** [Tailwind CSS](https://tailwindcss.com)
+* **Linguagem:** TypeScript
+* **Deploy:** Vercel
 
-```bash
-# npm
-npm install
+## ✨ Funcionalidades
+* **Arquitetura de Dados:** Uso do Nuxt Content para consumir arquivos JSON, facilitando a manutenção e atualização dos projetos.
+* **Interface Responsiva:** Páginas e componentes de interface otimizados com Tailwind CSS.
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 💻 Desenvolvimento local
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/BeatrizBastosBorges/portifolio.git
+2. **Instale as dependências:**
+   ```bash
+   npm install
+3. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+5. Acesse `http://localhost:3000` no seu navegador
