@@ -1,0 +1,44 @@
+{
+  "nav_home": "home",
+  "nav_projects": "projects",
+  "nav_about": "about-me",
+  "nav_contacts": "contacts",
+
+  "hero_greeting": "I am a",
+  "hero_role": "web developer",
+  "hero_description": "I transform ideas into high-performance systems.",
+  "hero_button": "Learn more!",
+
+  "quote": "Design is not just what it looks like and feels like. Design is how it works.",
+
+  "footer_role": "Web Developer",
+  "footer_media": "Media",
+  "footer_rights": "© Copyright 2025. Made with 🩵 by Beatriz B. Borges",
+
+  "about_title": "about-me",
+  "about_subtitle": "Who am I?",
+  "about_description_1": "Hello, I am Beatriz!",
+  "about_description_2": "I am a Technologist in Systems Analysis and Development, with a focus and enthusiasm for front-end and back-end areas. I am based in Praia Grande - São Paulo.",
+  "about_description_3": "My passion is transforming ideas into high-performance systems, developing modern, responsive, and accessible web interfaces, as well as ensuring the optimization of internal routines and processes.",
+  "about_button": "View my Resume!",
+  "about_skills_title": "skills", 
+  
+  "categories_languages": "Languages",
+  "categories_databases": "Databases",
+  "categories_frameworks": "Frameworks",
+  "categories_tools": "Tools",
+  "categories_other": "Other",
+
+  "contacts_title": "contacts",
+
+  "projects_title": "projects",
+  "projects_subtitle": "Projects list",
+  "projects_detail_button": "Details",
+  "projects_view_button": "See all",
+  "projects_about": "about the project",
+  "projects_my_contribution": "my contributions",
+  "projects_link": "Project Link",
+
+  "pagination_previous": "Previous",
+  "pagination_next": "Next"
+}

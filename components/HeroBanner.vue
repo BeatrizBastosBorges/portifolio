@@ -3,16 +3,16 @@
         <div class="grid lg:grid-cols-2 gap-12 justify-items-center">
             <div>
                 <p class="text-2xl md:text-4xl font-semibold mb-8">
-                    {{ $t('hero.greeting') }} <span class="text-[#858BF2]">{{ $t('hero.role') }}</span>
+                    {{ $t('hero_greeting') }} <span class="text-[#858BF2]">{{ $t('hero_role') }}</span>
                 </p>
 
                 <p class="text-[#ABB2BF] text-lg mb-8 max-w-lg">
-                    {{ $t('hero.description') }}
+                    {{ $t('hero_description') }}
                 </p>
 
                 <NuxtLink to="/about"
                     class="inline-block px-6 py-3 border border-[#3DD9BC] hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors font-medium">
-                    {{ $t('hero.button') }}
+                    {{ $t('hero_button') }}
                 </NuxtLink>
             </div>
 

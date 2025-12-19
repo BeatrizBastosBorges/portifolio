@@ -1,0 +1,54 @@
+{
+  "nav_home": "início",
+  "nav_projects": "projetos",
+  "nav_about": "sobre-mim",
+  "nav_contacts": "contatos",
+
+  "hero_greeting": "Sou uma",
+  "hero_role": "desenvolvedora web",
+  "hero_description": "Transformo ideias em sistemas de alta perfomance.",
+  "hero_button": "Saiba mais!",
+
+  "quote": "O design não é apenas o que parece e o que se sente. Design é como funciona.",
+  
+  "footer_role": "Desenvolvedora web",
+  "footer_media": "Mídia",
+  "footer_rights": "© Copyright 2025. Feito com 🩵 por Beatriz B. Borges",
+
+  "about_title": "sobre-mim",
+  "about_subtitle": "Quem sou eu?",
+  "about_description_1": "Olá! Me chamo Beatriz!",
+  "about_description_2": "Sou Tecnóloga em Análise e Desenvolvimento de Sistemas, com foco e entusiasmo pelas áreas front-end e back-end. Estou sediada em Praia Grande - São Paulo.",
+  "about_description_3": "Minha paixão é transformar ideias em sistemas de alta performance, desenvolvendo interfaces web modernas, responsivas e acessíveis, além de garantir a otimização de rotinas e processos internos.",
+  "about_button": "Veja meu Currículo!",
+  "about_skills_title": "skills",
+
+  "categories_languages": "Linguagens",
+  "categories_databases": "Bancos de Dados",
+  "categories_frameworks": "Frameworks",
+  "categories_tools": "Ferramentas",
+  "categories_other": "Outros",
+  
+  "contacts_title": "contatos",
+  
+  "projects_title": "projetos",
+  "projects_subtitle": "Lista dos meus projetos",
+  "projects_detail_button": "Detalhes",
+  "projects_view_button": "Veja todos",
+  "projects_about": "sobre o projeto",
+  "projects_my_contribution": "minhas contribuições",
+  "projects_link": "Link do Projeto",
+  
+  "projects": {
+    "title": "projetos",
+    "subtitle": "Lista dos meus projetos",
+    "detail_button": "Detalhes",
+    "view_button": "Veja todos",
+    "about": "sobre o projeto",
+    "my_contribution": "minhas contribuições",
+    "project_link": "Link do Projeto"
+  },
+
+  "pagination_previous": "Anterior",
+  "pagination_next": "Próximo"
+}

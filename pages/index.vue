@@ -14,9 +14,9 @@
 const { t } = useI18n()
 
 useHead({
-    title: computed(() => `Beatriz | ${t('hero.role')}`),
+    title: computed(() => `Beatriz | ${t('hero_role')}`),
     meta: [
-        { name: 'description', content: computed(() => t('hero.description')) }
+        { name: 'description', content: computed(() => t('hero_description')) }
     ]
 })
 </script>

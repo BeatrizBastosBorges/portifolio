@@ -77,7 +77,7 @@
                                 :value="lang.code"
                                 class="bg-[#121212]"
                             >
-                                {{ lang.name }}
+                            {{ lang.code.toUpperCase() }}
                             </option>
                         </select>
                     </div>
@@ -100,10 +100,10 @@ const onLocaleChange = (event) => {
 const isMenuOpen = ref(false);
 
 const navLinks = computed(() => [
-    { label: t('nav.home'), to: '/' },
-    { label: t('nav.projects'), to: '/projects' },
-    { label: t('nav.about'), to: '/about' },
-    { label: t('nav.contacts'), to: '/contacts' },
+    { label: t('nav_home'), to: '/' },
+    { label: t('nav_projects'), to: '/projects' },
+    { label: t('nav_about'), to: '/about' },
+    { label: t('nav_contacts'), to: '/contacts' },
 ])
 </script>
 

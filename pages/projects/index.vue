@@ -2,9 +2,9 @@
     <div class="flex-grow overflow-hidden bg-[url(@/assets/image/background.svg)] bg-repeat font-fira">
         <div class="min-h-screen pt-24 pb-12 px-4 md:px-12 lg:px-20 container mx-auto">
             <h1 class="text-3xl md:text-5xl font-bold mb-2 flex items-center">
-                <span class="text-[#858BF2] mr-2">/</span>{{ $t('projects.title') }}
+                <span class="text-[#858BF2] mr-2">/</span>{{ $t('projects_title') }}
             </h1>
-            <p class="text-[#ABB2BF] mb-12">{{ $t('projects.subtitle') }}</p>
+            <p class="text-[#ABB2BF] mb-12">{{ $t('projects_subtitle') }}</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                 <div 
@@ -32,7 +32,7 @@
                                 :to="localePath(`/projects/${getSlug(project._id)}`)"
                                 class="inline-block px-4 py-2 border border-[#3DD9BC] text-white hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors text-sm font-fira"
                             >
-                                {{ $t('projects.detail_button') }} <~>
+                                {{ $t('projects_detail_button') }} <~>
                             </NuxtLink>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                     :disabled="currentPage === 1"
                     class="px-4 py-2 border border-[#ABB2BF] text-[#ABB2BF] disabled:opacity-30 disabled:cursor-not-allowed hover:border-[#3DD9BC] hover:bg-[#3DD9BC]/50 hover:text-gray-900 transition-colors"
                 >
-                    <~ {{ $t('pagination.previous') }}
+                    <~ {{ $t('pagination_previous') }}
                 </button>
 
                 <div class="flex gap-2">
@@ -69,7 +69,7 @@
                     :disabled="currentPage === totalPages"
                     class="px-4 py-2 border border-[#ABB2BF] text-[#ABB2BF] disabled:opacity-30 disabled:cursor-not-allowed hover:border-[#3DD9BC] hover:bg-[#3DD9BC]/50 hover:text-gray-900 transition-colors"
                 >
-                {{ $t('pagination.next') }} ~>
+                {{ $t('pagination_next') }} ~>
                 </button>
             </div>
         </div>

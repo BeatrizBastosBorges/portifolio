@@ -12,12 +12,12 @@
 
           <div class="prose prose-invert max-w-none text-justify">
             <h2 class="text-white text-xl md:text-2xl font-bold mb-4">
-              <span class="text-[#3DD9BC]">#</span> {{ $t('projects.about') }}
+              <span class="text-[#3DD9BC]">#</span> {{ $t('projects_about') }}
             </h2>
             <p>{{ doc.about }}</p>
 
             <h3 class="text-white text-xl md:text-2xl font-semibold mt-4 mb-2">
-              <span class="text-[#3DD9BC]">#</span> {{ $t('projects.my_contribution') }}:
+              <span class="text-[#3DD9BC]">#</span> {{ $t('projects_my_contribution') }}:
             </h3>
             
             <ul class="list-disc ml-6 mb-4">
@@ -32,7 +32,7 @@
             <div class="mt-8 flex gap-4">
               <a v-if="doc.link" :href="doc.link" target="_blank"
                 class="px-6 py-2 border border-[#3DD9BC] text-[#3DD9BC] hover:bg-[#3DD9BC]/10 transition-colors">
-                {{ $t('projects.project_link') }}
+                {{ $t('projects_link') }}
               </a>
             </div>
           </div>
