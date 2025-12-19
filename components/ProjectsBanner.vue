@@ -4,7 +4,7 @@
             <div class="flex items-center h-full">
                 <div class="text-xl md:text-2xl lg:text-3xl font-bold w-fit">
                     <span class="text-[#3DD9BC]">#</span>
-                    projetos
+                    {{ $t('projects.title') }}
                 </div>
             </div>
 
@@ -12,7 +12,7 @@
 
             <div>
                 <NuxtLink to="/projects" class="flex items-center hover:text-[#3DD9BC] transition-colors">
-                    Veja todos
+                    {{ $t('projects.view_button') }}
                     <span class="ml-2">~~></span>
                 </NuxtLink>
             </div>
@@ -41,7 +41,7 @@
 
                     <div class="mt-auto">
                         <NuxtLink :to="project._path" class="inline-block px-4 py-2 border border-[#3DD9BC] text-[#3DD9BC] hover:bg-[#3DD9BC]/10 transition-colors text-sm font-fira">
-                            Detalhes <~>
+                            {{ $t('projects.detail_button') }} <~>
                         </NuxtLink>
                     </div>
                 </div>

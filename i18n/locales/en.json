@@ -38,5 +38,18 @@
       "other": "Other"
     }
   },
-  "contacts": "contacts"
+  "contacts": "contacts",
+  "projects": {
+    "title": "projects",
+    "subtitle": "Projects list",
+    "detail_button": "Details",
+    "view_button": "See all",
+    "about": "about the project",
+    "my_contribution": "my contributions",
+    "project_link": "Project Link"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  }
 }

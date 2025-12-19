@@ -38,5 +38,18 @@
       "other": "Outros"
     }
   },
-  "contacts": "contatos"
+  "contacts": "contatos",
+  "projects": {
+    "title": "projetos",
+    "subtitle": "Lista dos meus projetos",
+    "detail_button": "Detalhes",
+    "view_button": "Veja todos",
+    "about": "sobre o projeto",
+    "my_contribution": "minhas contribuições",
+    "project_link": "Link do Projeto"
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Próximo"
+  }
 }
