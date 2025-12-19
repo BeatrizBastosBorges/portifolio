@@ -31,8 +31,8 @@ export default defineNuxtConfig({
     langDir: 'locales',
     strategy: 'prefix_except_default',
     locales: [
-      { code: 'pt-br', iso: 'pt-BR', file: 'pt.json', name: 'Português' },
-      { code: 'en-us', iso: 'en-US', file: 'en.json', name: 'English' }
+      { code: 'pt-br', file: 'pt-BR.json', name: 'Português' },
+      { code: 'en-us', file: 'en-US.json', name: 'English' }
     ],
     bundle: {
       runtimeOnly: true,

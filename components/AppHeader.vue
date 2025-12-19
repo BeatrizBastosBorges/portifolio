@@ -24,7 +24,7 @@
                             :value="lang.code"
                             class="bg-[#121212] text-white"
                         >
-                            {{ lang.iso.toUpperCase() }}
+                            {{ lang.code.toUpperCase() }}
                         </option>
                     </select>
                     <span class="text-[#ABB2BF] text-xs ml-1 pointer-events-none">▾</span>
@@ -77,7 +77,7 @@
                                 :value="lang.code"
                                 class="bg-[#121212]"
                             >
-                            {{ lang.iso.toUpperCase() }}
+                            {{ lang.code.toUpperCase() }}
                             </option>
                         </select>
                     </div>
