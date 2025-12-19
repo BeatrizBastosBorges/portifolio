@@ -1,0 +1,23 @@
+{
+  "title": "ifsp dev",
+  "description": "Introduction to Programming Logic crash course for beginner students.",
+  "image": "/projects/ifsp-dev.png",
+  "tags": ["Portugol"],
+  "link": "https://sites.google.com/view/ifspdev/",
+  "date": "2024",
+  "about": "Leading an extension crash course focused on teaching algorithms and logic to middle and high school students.",
+  "contributions": [
+    {
+      "item": "Educational Material",
+      "text": "Development of handouts and practical exercises to facilitate learning."
+    },
+    {
+      "item": "Technical Instruction",
+      "text": "Using Portugol Studio to teach loop structures and logic in a visual way."
+    },
+    {
+      "item": "Engagement",
+      "text": "Promotion of practical activities that encourage solving real-world problems through code."
+    }
+  ]
+}

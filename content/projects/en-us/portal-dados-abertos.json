@@ -1,0 +1,33 @@
+{
+  "title": "santos open data portal",
+  "description": "Public municipal transparency interface developed for the City Hall of Santos.",
+  "image": "/projects/prefeitura-santos.png",
+  "tags": ["Vue.js", "TailwindCSS", "Laravel"],
+  "link": "https://egov.santos.sp.gov.br/dadosabertos/",
+  "date": "2024",
+  "about": "During my experience at the City Hall of Santos, I worked on developing critical screens for the Open Data Portal.",
+  "contributions": [
+    {
+      "item": "Goals Comparison",
+      "text": "Developed the 'Compare Goals' screen using Vue.js and TailwindCSS."
+    },
+    {
+      "item": "Interactive Charts",
+      "text": "Implemented data visualization using Chart.js."
+    },
+    {
+      "item": "Accessibility Menu (A11Y)",
+      "text": "Developed and implemented a complete accessibility menu.",
+      "subitems": [
+        "Dynamic font size adjustment.",
+        "Spacing controller.",
+        "Contrast and color toggles.",
+        "Visual link highlighting."
+      ]
+    },
+    {
+      "item": "Backend",
+      "text": "Assisted in the implementation of REST endpoints using Laravel."
+    }
+  ]
+}

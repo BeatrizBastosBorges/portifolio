@@ -1,0 +1,23 @@
+{
+  "title": "key reservation system",
+  "description": "System for managing and controlling keys and access permissions at IFSP.",
+  "image": "/projects/reserva-chave.png",
+  "tags": ["React", "Node.js", "MySQL", "Figma"],
+  "link": "https://github.com/Laysabernardes/ReservaDeChavesIFSP",
+  "date": "2023",
+  "about": "Developed as an academic project at IFSP, this system aims to optimize key management between students and staff, ensuring greater security and traceability.",
+  "contributions": [
+    {
+      "item": "Backend & API",
+      "text": "Development of a robust API using Express and Node.js to manage reservations and users."
+    },
+    {
+      "item": "Database",
+      "text": "MySQL database modeling and normalization for efficient storage of access logs."
+    },
+    {
+      "item": "Interface Design",
+      "text": "Full interface prototyping in Figma, focusing on user experience (UX)."
+    }
+  ]
+}

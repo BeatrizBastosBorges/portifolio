@@ -15,6 +15,7 @@
                 <div class="hidden md:flex items-center ml-4 border-l border-gray-700 pl-4">
                     <select 
                         v-model="locale" 
+                        @change="onLocaleChange"
                         class="w-full text-sm text-body bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-brand peer"
                     >
                         <option 
@@ -67,7 +68,7 @@
                     <div class="mt-8 pt-4">
                         <select 
                             v-model="locale" 
-                            @change="isMenuOpen = false"
+                            @change="(e) => { onLocaleChange(e); isMenuOpen = false; }"
                             class="bg-transparent text-white text-xl font-bold focus:outline-none"
                         >
                             <option 
@@ -91,6 +92,10 @@ import { ref } from 'vue';
 import logoUrl from '../assets/image/logo.svg'
 
 const { locale, locales, t } = useI18n()
+
+const onLocaleChange = (event) => {
+  setLocale(event.target.value)
+}
 
 const isMenuOpen = ref(false);
 

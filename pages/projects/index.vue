@@ -28,7 +28,10 @@
                         </div>
 
                         <div class="mt-auto">
-                            <NuxtLink :to="project._path" class="inline-block px-4 py-2 border border-[#3DD9BC] text-white hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors text-sm font-fira">
+                            <NuxtLink 
+                                :to="localePath(`/projects/${getSlug(project._id)}`)"
+                                class="inline-block px-4 py-2 border border-[#3DD9BC] text-white hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors text-sm font-fira"
+                            >
                                 {{ $t('projects.detail_button') }} <~>
                             </NuxtLink>
                         </div>
@@ -74,30 +77,36 @@
 </template>
 
 <script setup lang="ts">
+const { locale } = useI18n()
+const localePath = useLocalePath()
+
 useHead({
     title: 'Beatriz | Projetos',
-    meta: [
-        { name: 'description', content: 'Página de projetos da desenvolvedora web Beatriz.' }
-    ],
+    meta: [ { name: 'description', content: 'Página de projetos da desenvolvedora web Beatriz.' } ],
 })
 
 const limit = 6;
 const currentPage = ref(1);
 
-const { data: totalProjects } = await useAsyncData('total-projects', () => 
-    queryContent('projects').count()
+const getSlug = (id: string | undefined) => {
+    if (!id) return ''
+    return id.split(':').pop()?.replace('.json', '') || ''
+}
+
+const { data: totalProjects } = await useAsyncData(`total-projects-${locale.value}`, () => 
+    queryContent('projects', locale.value).count()
 );
 
 const totalPages = computed(() => Math.ceil((totalProjects.value || 0) / limit));
 
-const { data: projects, refresh } = await useAsyncData('projects-page', () => {
+const { data: projects, refresh } = await useAsyncData(`projects-page${locale.value}`, () => {
     const skip = (currentPage.value - 1) * limit;
-    return queryContent('projects')
+    return queryContent('projects', locale.value)
         .sort({ title: 1 })
         .skip(skip)
         .limit(limit)
         .find();
 }, {
-    watch: [currentPage]
+    watch: [currentPage, locale]
 });
 </script>
