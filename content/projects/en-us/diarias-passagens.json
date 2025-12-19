@@ -1,0 +1,22 @@
+{
+  "title": "booking and travel expenses portal",
+  "description": "Corporate travel management system for the City Hall of Santos.",
+  "image": "/projects/prefeitura-santos.png",
+  "tags": ["Vue.js", "TailwindCSS"],
+  "date": "2024 - 2025",
+  "about": "Development of the public interface for managing per diems and travel expenses, focusing on transparency for municipal spending.",
+  "contributions": [
+    {
+      "item": "Frontend Development",
+      "text": "Creation of all screens using Vue.js and TailwindCSS, ensuring 100% responsiveness."
+    },
+    {
+      "item": "Data Analysis",
+      "text": "Surveying, processing, and prioritizing public data to define the displayed indicators."
+    },
+    {
+      "item": "Accessibility",
+      "text": "Implementation of rigorous accessibility standards to ensure access for all citizens."
+    }
+  ]
+}

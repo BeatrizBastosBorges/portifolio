@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "home",
+    "projects": "projects",
+    "about": "about-me",
+    "contacts": "contacts"
+  },
+  "hero": {
+    "greeting": "I am a",
+    "role": "web developer",
+    "description": "I transform ideas into high-performance systems.",
+    "button": "Learn more!"
+  },
+  "quote": {
+    "text": "Design is not just what it looks like and feels like. Design is how it works.",
+    "author": "Charles Eames"
+  },
+  "footer": {
+    "role": "Web Developer",
+    "media": "Media",
+    "rights": "© Copyright 2025. Made with 🩵 by Beatriz B. Borges"
+  },
+  "about": {
+    "title": "about-me",
+    "subtitle": "Who am I?",
+    "description": [
+      "Hello, I am Beatriz!",
+      "I am a Technologist in Systems Analysis and Development, with a focus and enthusiasm for front-end and back-end areas. I am based in Praia Grande - São Paulo.",
+      "My passion is transforming ideas into high-performance systems, developing modern, responsive, and accessible web interfaces, as well as ensuring the optimization of internal routines and processes."
+    ],
+    "button": "View my Resume!",
+    "skills_title": "skills",
+    "categories": {
+      "languages": "Languages",
+      "databases": "Databases",
+      "frameworks": "Frameworks",
+      "tools": "Tools",
+      "other": "Other"
+    }
+  },
+  "contacts": "contacts",
+  "projects": {
+    "title": "projects",
+    "subtitle": "Projects list",
+    "detail_button": "Details",
+    "view_button": "See all",
+    "about": "about the project",
+    "my_contribution": "my contributions",
+    "project_link": "Project Link"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  }
+}

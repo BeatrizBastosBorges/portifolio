@@ -1,0 +1,22 @@
+{
+  "title": "municipal surveys",
+  "description": "Survey results display interface featuring real-time indicators.",
+  "image": "/projects/prefeitura-santos.png",
+  "tags": ["Vue.js", "TailwindCSS", "Laravel"],
+  "date": "2024",
+  "about": "Interface developed for the City Hall of Santos to present municipal survey results in a clear and interactive manner.",
+  "contributions": [
+    {
+      "item": "Data Visualization",
+      "text": "Creation of interactive charts using Chart.js for trend visualization."
+    },
+    {
+      "item": "API Integration",
+      "text": "Implementation of REST endpoints in Laravel to provide dynamic data filtering."
+    },
+    {
+      "item": "Interface",
+      "text": "Frontend development focused on usability and high-speed data loading."
+    }
+  ]
+}
