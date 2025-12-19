@@ -27,16 +27,20 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    defaultLocale: 'pt-br',
+    defaultLocale: 'pt',
     langDir: 'locales',
     strategy: 'prefix_except_default',
     locales: [
-      { code: 'pt-br', file: 'pt-BR.json', name: 'Português' },
-      { code: 'en-us', file: 'en-US.json', name: 'English' }
+      { code: 'pt', file: 'pt-BR.json', name: 'Português' },
+      { code: 'en', file: 'en-US.json', name: 'English' }
     ],
-    bundle: {
-      runtimeOnly: true,
-      fullInstall: false
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+    },
+    compilation: {
+      strictMessage: false,
     }
   }
 })
