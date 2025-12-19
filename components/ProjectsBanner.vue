@@ -40,7 +40,10 @@
                     </div>
 
                     <div class="mt-auto">
-                        <NuxtLink :to="project._path" class="inline-block px-4 py-2 border border-[#3DD9BC] text-[#3DD9BC] hover:bg-[#3DD9BC]/10 transition-colors text-sm font-fira">
+                        <NuxtLink 
+                            :to="localePath(`/projects/${getSlug(project._id)}`)"
+                            class="inline-block px-4 py-2 border border-[#3DD9BC] text-[#3DD9BC] hover:bg-[#3DD9BC]/10 transition-colors text-sm font-fira"
+                        >
                             {{ $t('projects.detail_button') }} <~>
                         </NuxtLink>
                     </div>
@@ -51,10 +54,21 @@
 </template>
 
 <script setup lang="ts">
-const { data: projects } = await useAsyncData('home-projects', () =>
-    queryContent('projects')
+const { locale } = useI18n()
+const localePath = useLocalePath()
+
+const getSlug = (id: string | undefined) => {
+    if (!id) return ''
+    return id.split(':').pop()?.replace('.json', '') || ''
+}
+
+const { data: projects } = await useAsyncData(`home-projects-${locale.value}`, () =>
+    queryContent('projects', locale.value)
         .sort({ title: 1 })
         .limit(3)
-        .find()
+        .find(),
+    {
+        watch: [locale]
+    }
 )
 </script>
