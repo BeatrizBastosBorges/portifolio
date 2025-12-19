@@ -27,13 +27,16 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    lazy: true,
-    langDir: 'locales',
     defaultLocale: 'pt-br',
+    langDir: 'locales',
+    strategy: 'prefix_except_default',
     locales: [
       { code: 'pt-br', iso: 'pt-BR', file: 'pt.json', name: 'Português' },
       { code: 'en-us', iso: 'en-US', file: 'en.json', name: 'English' }
     ],
-    strategy: 'prefix_except_default',
+    bundle: {
+      runtimeOnly: true,
+      fullInstall: false
+    }
   }
 })

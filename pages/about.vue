@@ -2,22 +2,18 @@
     <div class="flex-grow overflow-hidden bg-[url(@/assets/image/background.svg)] bg-repeat">
         <div class="min-h-screen pt-24 pb-12 px-4 md:px-12 lg:px-20 container mx-auto">
             <h1 class="text-3xl md:text-5xl font-bold mb-2 flex items-center">
-                <span class="text-[#858BF2] mr-2">/</span>{{ $t('about.title') }}
+                <span class="text-[#858BF2] mr-2">/</span>{{ $t('about_title') }}
             </h1>
-            <p class="text-[#ABB2BF] mb-12 lg:mb-6">{{ $t('about.subtitle') }}</p>
+            <p class="text-[#ABB2BF] mb-12 lg:mb-6">{{ $t('about_subtitle') }}</p>
             
             <div class="grid lg:grid-cols-2 gap-12 justify-items-center items-center">
                 <div class="flex flex-col gap-6 text-justify bg-[#121212]/70 rounded">
-                    <p 
-                        v-for="(paragraph, index) in $tm('about.description')" 
-                        :key="index"
-                        class="text-[#ABB2BF]"
-                    >
-                        {{ $rt(paragraph) }}
-                    </p>
+                    <p class="text-[#ABB2BF]">{{ $t('about_description_1') }}</p>
+                    <p class="text-[#ABB2BF]">{{ $t('about_description_2') }}</p>
+                    <p class="text-[#ABB2BF]">{{ $t('about_description_3') }}</p>
 
                     <a :href="curriculo" download="Curriculo_Beatriz_Bastos_Borges.pdf" class="w-fit px-6 py-3 border border-[#3DD9BC] hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors font-medium mt-4">
-                        {{ $t('about.button') }}
+                        {{ $t('about_button') }}
                     </a>
                 </div>
 
@@ -32,7 +28,7 @@
                 <div class="flex items-center mb-10">
                     <div class="flex items-center h-full">
                         <div class="text-3xl font-bold w-fit">
-                            <span class="text-[#3DD9BC]">#</span>{{ $t('about.skills_title') }}
+                            <span class="text-[#3DD9BC]">#</span>{{ $t('about_skills_title') }}
                         </div>
                     </div>
                     
@@ -64,29 +60,29 @@
 const { t } = useI18n()
 
 useHead({
-    title: computed(() => `Beatriz | ${t('about.title')}`),
-    meta: [{ name: 'description', content: computed(() => t('about.subtitle')) }],
+    title: computed(() => `Beatriz | ${t('about_title')}`),
+    meta: [{ name: 'description', content: computed(() => t('about_subtitle')) }],
 })
 
 const translatedSkills = computed(() => [
     {
-        category: t('about.categories.languages'),
+        category: t('categories_languages'),
         items: ['TypeScript', 'C#', 'C++', 'Python', 'JavaScript', 'Java']
     },
     {
-        category: t('about.categories.databases'),
+        category: t('categories_databases'),
         items: ['SQL Server', 'MySQL', 'Mongo']
     },
     {
-        category: t('about.categories.frameworks'),
+        category: t('categories_frameworks'),
         items: ['React', 'Vue', 'Nuxt', 'Express']
     },
     {
-        category: t('about.categories.tools'),
+        category: t('categories_tools'),
         items: ['VSCode', 'Eclipse', 'Git', 'Github', 'GitLab', 'VisualStudio']
     },
     {
-        category: t('about.categories.other'),
+        category: t('categories_other'),
         items: ['HTML', 'CSS', 'Bootstrap', 'TailwindCSS']
     }
 ])
