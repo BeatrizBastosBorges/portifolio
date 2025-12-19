@@ -7,27 +7,27 @@
                 Beatriz
             </NuxtLink>
 
-            <nav class="hidden md:flex space-x-6 text-sm">
+            <nav class="hidden md:flex space-x-6 text-sm items-center">
                 <NuxtLink v-for="link in navLinks" :key="link.to" :to="link.to"
                     class="text-gray-400 hover:text-white transition-colors flex items-center">
                     <span class="text-[#3DD9BC] mr-1">#</span>{{ link.label }}
                 </NuxtLink>
 
-                <div class="hidden md:flex items-center ml-4 border-l border-gray-700 pl-4">
-                    <select v-model="locale" @change="onLocaleChange"
-                        class="w-full text-sm text-body bg-transparent border-0 appearance-none focus:outline-none focus:ring-0 focus:border-brand peer">
-                        <option v-for="lang in locales" :key="lang.code" :value="lang.code"
-                            class="bg-[#121212] text-white">
-                            {{ lang.code.toUpperCase() }}
-                        </option>
-                    </select>
-                    <span class="text-[#ABB2BF] text-xs ml-1 pointer-events-none">▾</span>
+                <div class="flex items-center ml-4 border-l border-gray-700 pl-4 space-x-2">
+                    <button 
+                        v-for="lang in locales" 
+                        :key="lang.code"
+                        @click="setLocale(lang.code)"
+                        class="transition-colors uppercase font-bold text-xs"
+                        :class="locale === lang.code ? 'text-[#3DD9BC]' : 'text-gray-500 hover:text-white'"
+                    >
+                        {{ lang.code }}
+                    </button>
                 </div>
             </nav>
 
             <div class="md:hidden flex items-center p-2 z-50">
                 <input hidden class="check-icon" id="check-icon" name="check-icon" type="checkbox" v-model="isMenuOpen">
-
                 <label class="icon-menu" for="check-icon">
                     <div class="bar bar--1"></div>
                     <div class="bar bar--2"></div>
@@ -48,13 +48,16 @@
                         <span class="text-[#3DD9BC] mr-2 text-3xl">#</span>{{ link.label }}
                     </NuxtLink>
 
-                    <div class="mt-8 pt-4">
-                        <select v-model="locale" @change="(e) => { onLocaleChange(e); isMenuOpen = false; }"
-                            class="bg-transparent text-white text-xl font-bold focus:outline-none">
-                            <option v-for="lang in locales" :key="lang.code" :value="lang.code" class="bg-[#121212]">
-                                {{ lang.code.toUpperCase() }}
-                            </option>
-                        </select>
+                    <div class="mt-8 pt-4 flex space-x-6 border-t border-gray-800">
+                        <button 
+                            v-for="lang in locales" 
+                            :key="lang.code"
+                            @click="() => { setLocale(lang.code); isMenuOpen = false; }"
+                            class="text-xl font-bold uppercase"
+                            :class="locale === lang.code ? 'text-[#3DD9BC]' : 'text-gray-500'"
+                        >
+                            {{ lang.code }}
+                        </button>
                     </div>
                 </nav>
             </transition>
@@ -63,16 +66,10 @@
 </template>
 
 <script setup>
-// IMPORTANTE: Importar ref e computed do vue
 import { ref, computed } from 'vue';
 import logoUrl from '../assets/image/logo.svg'
 
-// Extraímos o setLocale corretamente do hook
 const { locale, locales, t, setLocale } = useI18n()
-
-const onLocaleChange = (event) => {
-    setLocale(event.target.value)
-}
 
 const isMenuOpen = ref(false);
 
@@ -85,14 +82,10 @@ const navLinks = computed(() => [
 </script>
 
 <style scoped>
+/* Mantive seu estilo original do menu hamburguer */
 .icon-menu {
     --gap: 5px;
     --height-bar: 2.5px;
-    --pos-y-bar-one: 0;
-    --pos-y-bar-three: 0;
-    --scale-bar: 1;
-    --rotate-bar-one: 0;
-    --rotate-bar-three: 0;
     width: 25px;
     display: flex;
     flex-direction: column;
@@ -100,40 +93,18 @@ const navLinks = computed(() => [
     cursor: pointer;
     position: relative;
 }
-
 .bar {
-    position: relative;
     height: var(--height-bar);
     width: 100%;
     border-radius: .5rem;
     background-color: #FFFFFF;
 }
-
-.bar--1 {
-    top: var(--pos-y-bar-one);
-    transform: rotate(var(--rotate-bar-one));
-    transition: top 200ms 100ms, transform 100ms;
-}
-
-.bar--2 {
-    transform: scaleX(var(--scale-bar));
-    transition: transform 150ms 100ms;
-}
-
-.bar--3 {
-    bottom: var(--pos-y-bar-three);
-    transform: rotate(var(--rotate-bar-three));
-    transition: bottom 200ms 100ms, transform 100ms;
-}
-
-.check-icon:checked+.icon-menu>.bar--1 {
-    transition: top 200ms, transform 200ms 100ms;
-}
-
-.check-icon:checked+.icon-menu>.bar--3 {
-    transition: bottom 200ms, transform 200ms 100ms;
-}
-
+/* ... resto dos seus estilos .bar--1, .check-icon etc ... */
+.bar--1 { top: var(--pos-y-bar-one); transform: rotate(var(--rotate-bar-one)); transition: top 200ms 100ms, transform 100ms; }
+.bar--2 { transform: scaleX(var(--scale-bar)); transition: transform 150ms 100ms; }
+.bar--3 { bottom: var(--pos-y-bar-three); transform: rotate(var(--rotate-bar-three)); transition: bottom 200ms 100ms, transform 100ms; }
+.check-icon:checked+.icon-menu>.bar--1 { transition: top 200ms, transform 200ms 100ms; }
+.check-icon:checked+.icon-menu>.bar--3 { transition: bottom 200ms, transform 200ms 100ms; }
 .check-icon:checked+.icon-menu {
     --pos-y-bar-one: calc(var(--gap) + var(--height-bar));
     --pos-y-bar-three: calc(var(--gap) + var(--height-bar));
