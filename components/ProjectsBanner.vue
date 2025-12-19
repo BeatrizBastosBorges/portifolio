@@ -1,8 +1,8 @@
 <template>
     <div class="py-12 md:py-20 lg:py-24 px-4 md:px-12 lg:px-20 container mx-auto">
-        <div class="flex items-center mb-10">
+        <div class="flex flex-col md:flex-row items-start md:items-center mb-10">
             <div class="flex items-center h-full">
-                <div class="text-3xl font-bold w-fit">
+                <div class="text-xl md:text-2xl lg:text-3xl font-bold w-fit">
                     <span class="text-[#3DD9BC]">#</span>
                     projetos
                 </div>
