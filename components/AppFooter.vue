@@ -5,10 +5,10 @@
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
           
                 <div class="mb-4 md:mb-0">
-                    <NuxtLink class="text-lg font-bold flex items-center gap-1" to="/">
+                    <NuxtLinkLocale class="text-lg font-bold flex items-center gap-1" to="/">
                         <img :src="logoUrl" alt="Logo" class="h-5 w-auto">
                         Beatriz
-                    </NuxtLink>
+                    </NuxtLinkLocale>
                     
                     <p class="text-[#ABB2BF] text-sm">{{ $t('footer_role') }}</p>
                 </div>
