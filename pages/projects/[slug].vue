@@ -1,6 +1,6 @@
 <template>
   <main class="min-h-screen pt-24 pb-12 px-4 md:px-12 lg:px-20 container mx-auto font-fira text-[#ABB2BF]">
-    <ContentDoc :path="`projects/${locale}/${$route.params.slug}`"v-slot="{ doc }">
+    <ContentDoc :path="contentPath"v-slot="{ doc }">
       <article>
         <h1 class="text-xl md:text-3xl lg:text-5xl font-bold text-white mb-2">
           <span class="text-[#858BF2]">/</span>{{ doc.title }}
@@ -43,5 +43,11 @@
 </template>
 
 <script setup>
-  const { locale } = useI18n()
+const { locale } = useI18n()
+const route = useRoute()
+
+const contentPath = computed(() => {
+  const langFolder = locale.value === 'pt' ? 'pt-br' : 'en-us'
+  return `projects/${langFolder}/${route.params.slug}`
+})
 </script>
