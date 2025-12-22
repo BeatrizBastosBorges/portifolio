@@ -11,10 +11,10 @@
             <div class="h-0.5 bg-[#3DD9BC] flex-1 mx-4"></div>
 
             <div>
-                <NuxtLink to="/projects" class="flex items-center hover:text-[#3DD9BC] transition-colors">
+                <NuxtLinkLocale to="/projects" class="flex items-center hover:text-[#3DD9BC] transition-colors">
                     {{ $t('projects_view_button') }}
                     <span class="ml-2">~~></span>
-                </NuxtLink>
+                </NuxtLinkLocale>
             </div>
         </div>
 
@@ -40,12 +40,12 @@
                     </div>
 
                     <div class="mt-auto">
-                        <NuxtLink 
+                        <NuxtLinkLocale 
                             :to="localePath(`/projects/${getSlug(project._id)}`)"
                             class="inline-block px-4 py-2 border border-[#3DD9BC] text-[#3DD9BC] hover:bg-[#3DD9BC]/10 transition-colors text-sm font-fira"
                         >
                             {{ $t('projects_detail_button') }} <~>
-                        </NuxtLink>
+                        </NuxtLinkLocale>
                     </div>
                 </div>
             </div>

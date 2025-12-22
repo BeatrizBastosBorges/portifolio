@@ -2,16 +2,16 @@
     <header class="sticky top-0 z-50 bg-[#121212]/90 backdrop-blur-md shadow-md">
         <div class="container mx-auto px-4 md:px-12 lg:px-20 py-4 flex justify-between items-center text-white">
 
-            <NuxtLink class="text-lg font-bold flex items-center z-50" to="/">
+            <NuxtLinkLocale class="text-lg font-bold flex items-center z-50" to="/">
                 <img :src="logoUrl" alt="Logo" class="h-8 w-auto mr-2">
                 Beatriz
-            </NuxtLink>
+            </NuxtLinkLocale>
 
             <nav class="hidden md:flex space-x-6 text-sm items-center">
-                <NuxtLink v-for="link in navLinks" :key="link.to" :to="link.to"
+                <NuxtLinkLocale v-for="link in navLinks" :key="link.to" :to="link.to"
                     class="text-gray-400 hover:text-white transition-colors flex items-center">
                     <span class="text-[#3DD9BC] mr-1">#</span>{{ link.label }}
-                </NuxtLink>
+                </NuxtLinkLocale>
 
                 <div class="flex items-center ml-4 border-l border-gray-700 pl-4 space-x-2">
                     <button 
@@ -43,10 +43,10 @@
                 <nav v-show="isMenuOpen"
                     class="md:hidden absolute top-0 left-0 w-full h-screen bg-[#121212] z-40 flex flex-col pt-20 px-4">
 
-                    <NuxtLink v-for="link in navLinks" :key="link.to" :to="link.to" @click="isMenuOpen = false"
+                    <NuxtLinkLocale v-for="link in navLinks" :key="link.to" :to="link.to" @click="isMenuOpen = false"
                         class="py-4 text-2xl font-semibold text-white hover:text-[#3DD9BC] transition-colors flex items-center">
                         <span class="text-[#3DD9BC] mr-2 text-3xl">#</span>{{ link.label }}
-                    </NuxtLink>
+                    </NuxtLinkLocale>
 
                     <div class="mt-8 pt-4 flex space-x-6 border-t border-gray-800">
                         <button 

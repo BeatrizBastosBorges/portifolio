@@ -28,12 +28,12 @@
                         </div>
 
                         <div class="mt-auto">
-                            <NuxtLink 
+                            <NuxtLinkLocale 
                                 :to="localePath(`/projects/${getSlug(project._id)}`)"
                                 class="inline-block px-4 py-2 border border-[#3DD9BC] text-white hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors text-sm font-fira"
                             >
                                 {{ $t('projects_detail_button') }} <~>
-                            </NuxtLink>
+                            </NuxtLinkLocale>
                         </div>
                     </div>
                 </div>

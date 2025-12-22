@@ -10,10 +10,10 @@
                     {{ $t('hero_description') }}
                 </p>
 
-                <NuxtLink to="/about"
+                <NuxtLinkLocale to="/about"
                     class="inline-block px-6 py-3 border border-[#3DD9BC] hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors font-medium">
                     {{ $t('hero_button') }}
-                </NuxtLink>
+                </NuxtLinkLocale>
             </div>
 
             <div class="lg:flex justify-center lg:justify-end relative">
