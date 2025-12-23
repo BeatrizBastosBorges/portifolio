@@ -12,7 +12,11 @@
                     <p class="text-[#ABB2BF]">{{ $t('about_description_2') }}</p>
                     <p class="text-[#ABB2BF]">{{ $t('about_description_3') }}</p>
 
-                    <a :href="curriculo" download="Curriculo_Beatriz_Bastos_Borges.pdf" class="w-fit px-6 py-3 border border-[#3DD9BC] hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors font-medium mt-4">
+                    <a 
+                        :href="curriculo" 
+                        :download="nomeAquivo" 
+                        class="w-fit px-6 py-3 border border-[#3DD9BC] hover:bg-[#3DD9BC] hover:text-gray-900 transition-colors font-medium mt-4"
+                    >
                         {{ $t('about_button') }}
                     </a>
                 </div>
@@ -57,7 +61,20 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n()
+import meUrl from '@/assets/image/me-standing.svg'
+import star from '@/assets/image/logo2.svg'
+import curriculoPT from '@/assets/doc/curriculo_pt.pdf'
+import curriculoEN from '@/assets/doc/curriculo_en.pdf'
+
+const { t, locale } = useI18n()
+
+const curriculo = computed(() => {
+    return locale.value.startsWith('pt') ? curriculoPT : curriculoEN
+})
+
+const nomeAquivo = computed(() => {
+    return locale.value.startsWith('pt') ? 'Curriculo_Beatriz_Bastos_Borges.pdf' : 'Beatriz_Bastos_Borges_Resume.pdf'
+})
 
 useHead({
     title: computed(() => `Beatriz | ${t('about_title')}`),
@@ -86,8 +103,4 @@ const translatedSkills = computed(() => [
         items: ['HTML', 'CSS', 'Bootstrap', 'TailwindCSS']
     }
 ])
-
-import meUrl from '@/assets/image/me-standing.svg'
-import star from '@/assets/image/logo2.svg'
-import curriculo from '@/assets/doc/curriculo.pdf'
 </script>
